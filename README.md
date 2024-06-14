@@ -35,70 +35,76 @@ This web application enables users to manage a library's collection of books, au
 
 ## CLI Commands
 
+### Menu Commands
+ - **Open Menu**
+    ```
+    python3 cli.py menu
+    ```
+
 ### Book Commands
 
 - **Create Book**
     ```
-    pipenv run python cli.py create-book --title "Book Title" --year 2023 --author_id 1 --isbn "1234567890123"
+    python3 cli.py create-book
     ```
 
 - **Delete Book**
     ```
-    pipenv run python cli.py delete-book --book_id 1
+    python3 cli.py delete-book --book_id 1
     ```
 
 - **Display Books**
     ```
-    pipenv run python cli.py display-books
+    python3 cli.py display-books
     ```
 
 - **Find Book**
     ```
-    pipenv run python cli.py find-book --book_id 1
+    python3 cli.py find-book 
     ```
 
 ### Author Commands
 
 - **Create Author**
     ```
-    pipenv run python cli.py create-author --name "Author Name" --bio "Short bio" --birth_date "1970-01-01" --nationality "Nationality"
+    python3 cli.py create-author
     ```
 
 - **Delete Author**
     ```
-    pipenv run python cli.py delete-author --author_id 1
+    python3 cli.py delete-author 
     ```
 
 - **Display Authors**
     ```
-    pipenv run python cli.py display-authors
+    python3 cli.py display-authors
     ```
 
 - **Find Author**
     ```
-    pipenv run python cli.py find-author --author_id 1
+    python3 cli.py find-author 
     ```
 
 ### Category Commands
 
 - **Create Category**
     ```
-    pipenv run python cli.py create-category --name "Category Name" --description "Category Description"
+    python3 cli.py create-category 
     ```
 
 - **Delete Category**
     ```
-    pipenv run python cli.py delete-category --category_id 1
+    python3 cli.py delete-category --category_id 1
     ```
 
 - **Display Categories**
     ```
-    pipenv run python cli.py display-categories
+    python3 cli.py display-categories
     ```
 
 - **Find Category**
     ```
-    pipenv run python cli.py find-category --category_id 1
+    python3 cli.py find-category --category_id 1
     ```
 
 ## Functions
