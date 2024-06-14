@@ -18,12 +18,12 @@ This web application enables users to manage a library's collection of books, au
 2. Navigate to the project directory.
 3. Install dependencies using `pipenv install`.
 4. Set up the database by running `pipenv run python database/setup.py`.
-5. Run the CLI with `pipenv run python cli.py menu`.
+5. Run the CLI with `python3 cli.py menu`.
 
 ## Usage
 
 - Use the CLI commands to manage books, authors, and categories.
-- For a list of available commands, run `pipenv run python cli.py --help`.
+- For a list of available commands, run `python3 cli.py --help`.
 
 ## Technologies Used
 
